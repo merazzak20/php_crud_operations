@@ -1,0 +1,15 @@
+-- 1. Create a new database
+CREATE DATABASE lab_test;
+
+-- 2. Use the newly created database
+USE lab_test;
+
+-- 3. Create a table named 'users'
+CREATE TABLE users (
+id INT AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR(100) NOT NULL,
+email VARCHAR(100) NOT NULL
+);
+
+-- 4. (Optional) View all records in the table
+SELECT \* FROM users;
